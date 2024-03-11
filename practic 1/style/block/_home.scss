@@ -1,0 +1,36 @@
+.home {
+    background-color: #F4F6F5;
+    border-radius: 59px;
+    align-content: center;
+    margin: 0 120px 0 120px;
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.home {
+    @extend %font-h1
+}
+
+.home h2 {
+    font-size: 32px;
+    font-weight: initial;
+    line-height: 48px;
+    
+}
+.home-text {
+    padding: 40px 0 0 60px;
+    width: 50%;
+}
+
+.home-img {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.home-img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) and (device-aspect-ratio: 16/9) {
+    
+}

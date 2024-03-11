@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+    margin: 10px 20px 10px 20px;
+    font-family: Poppins;
+}
+
+%font-h1 {
+    h1 {
+        font-size: 72px;
+        font-weight: bold;
+        line-height: 100px;
+        margin: 0;
+    }
+}
+
+button {
+    background-color: #000;
+    border: 1px #3C3C3C;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 18px Poppins;
+    font-weight: 500;
+    gap: 10px;
+    margin-left: auto;
+    border-radius: 9px;  
+}

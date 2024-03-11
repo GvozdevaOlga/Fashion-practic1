@@ -1,0 +1,53 @@
+.favourite-list {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 120px 0 120px;
+    margin-bottom: 100px;
+}
+
+.favourite-list .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+
+.favourite-list h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.favourite-list h3 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.favourite-list h4 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 0;
+}
+
+.favourite-list img {
+    width: 100%;
+}
+
+.favourite-list_arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.favourite-list button {
+    display: inline-block;
+    padding: 0;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font: 32px Poppins;
+    font-weight: 500;
+}

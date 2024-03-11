@@ -1,0 +1,53 @@
+.arrivals-list {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 120px 0 120px;
+    margin-bottom: 100px;
+}
+
+.arrivals-list .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+
+.arrivals-list h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.arrivals-list h3 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.arrivals-list h4 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 0;
+}
+
+.arrivals-list img {
+    width: 100%;
+}
+
+.arrivals-list_arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrivals-list button {
+    display: inline-block;
+    padding: 0;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font: 32px Poppins;
+    font-weight: 500;
+}
